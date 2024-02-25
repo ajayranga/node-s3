@@ -1,0 +1,13 @@
+{
+  "name": "node-s3",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"tsc -w\" \"nodemon dist/index\""
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "concurrently": "^8.2.2"
+  }
+}
